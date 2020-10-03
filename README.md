@@ -27,6 +27,8 @@ We compare serveral different ML alogthrims, the table below shows the cross val
 
 According to the table above, we can find that the highest cross val score is SVM, that's the reason why we choose SVM as our final model
 
+---
+
 **[Forest-Fire-Area-Classification-NASA.ipynb](https://github.com/e96031413/Forest-Fire-Area-Classification/blob/master/Forest-Fire-Area-Classification-NASA.ipynb)**
 
 This notebook used different dataset from previous one, we directly use fire dataset from NASA. Apply the same ML methods again, the cross val score is higher than previous one due to the number of data is more that UCI Machine Learning Repository.
