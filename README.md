@@ -7,7 +7,7 @@ There are two notebook in this project:
 
 **[Forest-Fire-Area-Classification.ipynb](https://github.com/e96031413/Forest-Fire-Area-Classification/blob/master/Forest-Fire-Area-Classification.ipynb)**
 
-In this notebook, we use forest fire dataset from UCI Machine Learning Repository. The originally dataset is used to predict the fire area, we use date pre-processing to modify the dataset so that we can see it as a classification problem.
+In this notebook, we use forest fire dataset from UCI Machine Learning Repository. The originally dataset is used to predict the fire area, we use date pre-processing technique to modify the dataset so that we can see it as a classification problem.
 
 We compare serveral different ML alogthrims, the table below shows the cross val score:
 
@@ -47,4 +47,4 @@ This notebook used different dataset from previous one, we directly use fire dat
 | RandomForest       | 0.851002 |
 | ExtraTrees         | 0.846120 |
 
-According to the table above, we can find that the highest cross val score is GradientBoost rather than SVM. However, this dataset may not be the right choice for ordinary users to predict whether it is on fire or not. Because its data feature is from sattelite equipment, not from our daily equipment
+According to the table above, we can find that the highest cross val score is GradientBoost rather than SVM. However, this dataset may not be the right choice for ordinary users to predict whether it is on fire or not. Because its data feature is from sattelite equipment, not from our daily equipment.
