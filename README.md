@@ -7,7 +7,7 @@ There are two notebook in this project:
 
 **[Forest-Fire-Area-Classification.ipynb](https://github.com/e96031413/Forest-Fire-Area-Classification/blob/master/Forest-Fire-Area-Classification.ipynb)**
 
-In this notebook, we use forest fire dataset from UCI Machine Learning Repository. The originally dataset is used to predict the fire area, we use date pre-processing technique to modify the dataset so that we can see it as a classification problem.
+In this notebook, we use forest fire dataset from [UCI Machine Learning Repository Forest Fires Data Set](https://archive.ics.uci.edu/ml/datasets/forest+fires). The originally dataset is used to predict the fire area, we use date pre-processing technique to modify the dataset so that we can see it as a classification problem.
 
 We compare serveral different ML alogthrims, the table below shows the cross val score:
 
@@ -31,7 +31,7 @@ According to the table above, we can find that the highest cross val score is SV
 
 **[Forest-Fire-Area-Classification-NASA.ipynb](https://github.com/e96031413/Forest-Fire-Area-Classification/blob/master/Forest-Fire-Area-Classification-NASA.ipynb)**
 
-This notebook used different dataset from previous one, we directly use fire dataset from NASA. Apply the same ML methods again, the cross val score is higher than previous one due to the number of data is more that UCI Machine Learning Repository.
+This notebook used different dataset from previous one, we directly use fire dataset from [NASA Active Fire Data](https://firms.modaps.eosdis.nasa.gov/active_fire/#firms-txt). Apply the same ML methods again, the cross val score is higher than previous one due to the number of data is more that UCI Machine Learning Repository.
 
 |alogthrims          |cross_val_score|
 |--------------------|----------|
