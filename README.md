@@ -11,7 +11,7 @@ In this notebook, we use forest fire dataset from [UCI Machine Learning Reposito
 
 We compare serveral different ML alogthrims, the table below shows the cross val score:
 
-|alogthrims          |cross_val_score|
+|algorithms          |cross_val_score|
 |--------------------|----------|
 | LogisticRegression | 0.495667 |
 | KNN                | 0.540667 |
@@ -33,7 +33,7 @@ According to the table above, we can find that the highest cross val score is SV
 
 This notebook used different dataset from previous one, we directly use fire dataset from [NASA Active Fire Data](https://firms.modaps.eosdis.nasa.gov/active_fire/#firms-txt). Apply the same ML methods again, the cross val score is higher than previous one due to the number of data is more that UCI Machine Learning Repository.
 
-|alogthrims          |cross_val_score|
+|algorithms          |cross_val_score|
 |--------------------|----------|
 | LogisticRegression | 0.83759  |
 | KNN                | 0.806166 |
