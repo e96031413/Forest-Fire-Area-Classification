@@ -13,17 +13,17 @@ We compare serveral different ML alogthrims, the table below shows the cross val
 
 |algorithms          |cross_val_score|
 |--------------------|----------|
-| LogisticRegression | 0.495667 |
-| KNN                | 0.540667 |
-| DecisionTree       | 0.531667 |
-| GaussianNB         | 0.505333 |
-| SVM                | 0.57     |
-| MLP                | 0.535333 |
-| GradientBoost      | 0.532    |
-| AdaBoost           | 0.543    |
-| Bagging            | 0.501    |
-| RandomForest       | 0.54     |
-| ExtraTrees         | 0.518    |
+| LogisticRegression | 49.56 |
+| KNN                | 54.06 |
+| DecisionTree       | 53.16 |
+| GaussianNB         | 50.53 |
+| SVM                | 57    |
+| MLP                | 53.53 |
+| GradientBoost      | 53.2  |
+| AdaBoost           | 54.3  |
+| Bagging            | 50.1  |
+| RandomForest       | 54    |
+| ExtraTrees         | 51.8  |
 
 According to the table above, we can find that the highest cross val score is SVM, that's the reason why we choose SVM as our final model
 
@@ -35,16 +35,16 @@ This notebook used different dataset from previous one, we directly use fire dat
 
 |algorithms          |cross_val_score|
 |--------------------|----------|
-| LogisticRegression | 0.83759  |
-| KNN                | 0.806166 |
-| DecisionTree       | 0.790570 |
-| GaussianNB         | 0.648099 |
-| SVM                | 0.836511 |
-| MLP                | 0.831783 |
-| GradientBoost      | 0.854933 |
-| AdaBoost           | 0.849769 |
-| Bagging            | 0.825925 |
-| RandomForest       | 0.851002 |
-| ExtraTrees         | 0.846120 |
+| LogisticRegression | 83.759  |
+| KNN                | 80.61 |
+| DecisionTree       | 79.05 |
+| GaussianNB         | 64.80 |
+| SVM                | 83.65 |
+| MLP                | 83.17 |
+| GradientBoost      | 85.49 |
+| AdaBoost           | 84.97 |
+| Bagging            | 82.59 |
+| RandomForest       | 85.10 |
+| ExtraTrees         | 84.61 |
 
 According to the table above, we can find that the highest cross val score is GradientBoost rather than SVM. However, this dataset may not be the right choice for ordinary users to predict whether it is on fire or not. Because its data feature is from sattelite equipment, not from our daily equipment.
